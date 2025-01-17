@@ -1,3 +1,10 @@
+// Time Complexity : O(n)
+// Space Complexity : O(1)
+// Did this code successfully run on Leetcode : Yes
+// Any problem you faced while coding this : No
+
+
+// Calculate volume between left and right where it is = ht* width and you decrement or increment right/left based on whichever is smaller
 class ContainerWithMostWater {
     public int maxArea(int[] height) {
         if(height==null || height.length <=1){
